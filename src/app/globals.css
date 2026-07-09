@@ -8,6 +8,7 @@
   --tab-bg: rgba(58, 47, 40, 0.06);
   --accent: oklch(62% 0.13 45);
   --tag-bg: #7ab078;
+  --tag-text: #ffffff;
 
   --mascot-body: #f3e6d3;
   --mascot-screen: #1c2620;
@@ -19,14 +20,15 @@
 }
 
 [data-theme="dark"] {
-  --bg: oklch(19% 0.03 55);
+  --bg: #000000;
   --text: #f5ead9;
   --text-soft: #d3bfa8;
   --text-faint: #9a8570;
   --border-color: rgba(245, 234, 217, 0.14);
   --tab-bg: rgba(245, 234, 217, 0.09);
   --accent: oklch(72% 0.15 50);
-  --tag-bg: #000000;
+  --tag-bg: #7ab078;
+  --tag-text: #ffffff;
 
   --mascot-body: oklch(28% 0.035 55);
   --mascot-screen: #0f1712;
@@ -235,7 +237,7 @@ a {
 
 .post-tag {
   font-size: 13px;
-  color: var(--text-faint);
+  color: var(--tag-text);
   padding: 3px 10px;
   background: var(--tag-bg);
   border-radius: 999px;

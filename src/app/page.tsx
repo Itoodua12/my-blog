@@ -7,15 +7,19 @@ export default function Home() {
         software, sometimes life in between. This is my little corner of the internet.
       </p>
       <div className="link-row">
+        {/* Email */}
         <a href="mailto:irakli@example.com" className="pill-link solid">
           Email
         </a>
+        {/* Twitter */}
         <a href="#" className="pill-link outline">
           Twitter / X
         </a>
+        {/* github */}
         <a href="#" className="pill-link outline">
           GitHub
         </a>
+        {/* Linked */}
         <a href="#" className="pill-link outline">
           LinkedIn
         </a>
