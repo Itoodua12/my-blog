@@ -4,7 +4,7 @@ export default function Home() {
       <h1 className="home-headline">Hi, I&apos;m Irakli Todua.</h1>
       <p className="home-bio">
         I write about the things I&apos;m building, learning, and thinking through — mostly
-        software, sometimes life in between. This is my little corner of the internet so
+        software, sometimes life in between. This is my little corner of the internet, so
         it feels good to finally have a place to put my thoughts.
       </p>
       <div className="link-row">
