@@ -5,5 +5,5 @@ export interface Post {
 }
 
 export const posts: Post[] = [
-  { title: "Why I started this blog", tag: "meta", date: "Mar 2026" },
+  { title: "Why I started this blog", tag: "meta", date: "Jul 9, 2026" },
 ];
