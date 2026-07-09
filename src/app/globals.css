@@ -7,6 +7,7 @@
   --border-color: rgba(58, 47, 40, 0.1);
   --tab-bg: rgba(58, 47, 40, 0.06);
   --accent: oklch(62% 0.13 45);
+  --tag-bg: #7ab078;
 
   --mascot-body: #f3e6d3;
   --mascot-screen: #1c2620;
@@ -25,6 +26,7 @@
   --border-color: rgba(245, 234, 217, 0.14);
   --tab-bg: rgba(245, 234, 217, 0.09);
   --accent: oklch(72% 0.15 50);
+  --tag-bg: #000000;
 
   --mascot-body: oklch(28% 0.035 55);
   --mascot-screen: #0f1712;
@@ -235,7 +237,7 @@ a {
   font-size: 13px;
   color: var(--text-faint);
   padding: 3px 10px;
-  background: var(--accent-soft);
+  background: var(--tag-bg);
   border-radius: 999px;
   width: fit-content;
 }
